@@ -27,8 +27,8 @@ export const createTask = async (state: FormState, formData: FormData) => {
   redirect('/')
 }
 
-export const updateTask = async (id:string, state: FormState, formData: FormData) => {
-  const nupdateTask: Task = {
+export const updateTask = async (id: string, state: FormState, formData: FormData) => {
+  const updateTask: Task = {
     title: formData.get('title') as string,
     description: formData.get('description') as string,
     dueDate: formData.get('dueDate') as string,
