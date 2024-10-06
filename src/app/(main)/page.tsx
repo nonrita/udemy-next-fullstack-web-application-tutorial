@@ -11,6 +11,9 @@ const MainPage = () => {
           <div>Add Task</div>
         </Link>
       </header>
+      <div>
+        Task Card
+      </div>
     </div>
   )
 }
