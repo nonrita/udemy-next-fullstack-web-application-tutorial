@@ -1,4 +1,4 @@
-const page = () => {
+const MainPage = () => {
   return (
     <div>
       Hello World
@@ -6,4 +6,4 @@ const page = () => {
   )
 }
 
-export default page
+export default MainPage
