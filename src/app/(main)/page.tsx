@@ -11,7 +11,7 @@ const MainPage = () => {
           <div>Add Task</div>
         </Link>
       </header>
-      <div>
+      <div className="mt-8 flex flex-wrap gap-4">
         Task Card
       </div>
     </div>
