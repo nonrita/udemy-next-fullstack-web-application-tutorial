@@ -15,7 +15,7 @@ const NavList = () => {
     {id: 3, label: 'Expired Tasks', link: '/expired', icon: <FaRegClock className="size-5" />},
   ]
   return (
-    <div className="mt-24">
+    <div className="mt-12">
       {navList.map((item) => (
         <NavItem key={item.id} label={item.label} link={item.link} icon={item.icon} />
       ))}
